@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+/* обнуляющие стили */
+a{
+    color: black;
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding:40px 30px;
+    gap:150px;
+    font-size: 32px;
+    color: #4A5568;
+    margin-bottom: 60px;
+}
+.logo{
+    width: 60px;
+}
+
+nav{
+    display:flex;
+    gap:80px;
+}
+.transfer{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.transfer>div{
+    width: 50%;
+}
+.mbappe{
+    width: 30%;
+}
+
+h1{
+    font-size: 80px;
+    color: rgb(193, 176, 168);
+}
+h2{
+    font-family: "Shantell Sans", cursive;
+}
+h3{
+    color:#8C8C8C;
+    font-size: 40px;
+}
+.tounament{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.tounament>h1{
+    text-align:center;
+}
+.standings3,.standings1{
+    gap: 20px;
+}
+.standings3,.standings1,.standings2{
+    display:flex;
+    justify-content:center;
+}    
+.results№1{
+    background-image: url(images/euro2024.png);
+}
+.results№2{
+    background-image: url(images/euro2024.png);
+}
+.results№3{
+    background-image: url(images/euro2024.png);
+}
+.results№1,.results№2,.results№3{
+    display:flex;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin-top: 60px;
+}
+.results>h1{
+    text-align:center;
+}
+footer{
+    display:flex;
+    justify-content:space-around;
+    background-color:#797979;
+    padding:30px;
+    font-size:20px;
+    margin-top: 100px;
+}
+.germany2{
+    height:400px;
+}
+.france{
+    height: 400px;                           ;
+}
+.nederl{
+    height: 400px; 
+}
+.turkish{
+    height: 400px; 
+}
+/* width-height ИЗМЕНИИТЬ РАЗМЕР КАРТИНКИ*/ 
