@@ -110,7 +110,7 @@ footer{
 }
 .square {
     width: 120px;
-    height: 120px;
+    height: 90px;
     background: red;
     position: fixed;
     right:20px;
