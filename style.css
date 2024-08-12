@@ -39,6 +39,8 @@ nav{
 }
 .mbappe{
     width: 30%;
+    animation: anim1 3s 1 forwards;
+    animation-direction:alternate;
 }
 
 h1{
@@ -169,3 +171,26 @@ footer{
         left:0;
     }
 }
+@keyframes anim1 {
+    0%{
+        transform:scale(1);
+        border-radius:0px;
+    }
+    33%{
+        transform:scale(0.5);
+        border-radius:500px;
+    }
+    66%{
+        transform:scale(1);
+        border-radius:0px;
+    }
+    70%{
+        transform:scale(1.5);
+        border-radius:500px;
+    }
+    100%{
+        transform:scale(1);
+        border-radius:0px;
+    }
+}
+
